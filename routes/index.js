@@ -3,11 +3,22 @@ var router = express.Router();
 var passport = require("passport");
 var User = require("../models/user");
 
+<<<<<<< 99bed94a30fc9fdef3e6341c0605a4d32e14503e
 // root route
+=======
+// root route / main page
+>>>>>>> add MEN stack
 router.get("/", function(req, res){
     res.render("landing");
 });
 
+<<<<<<< 99bed94a30fc9fdef3e6341c0605a4d32e14503e
+=======
+router.get("/circles", function(req, res){
+  res.render("circles");
+});
+
+>>>>>>> add MEN stack
 // register form route
 router.get("/register", function(req, res) {
    res.render("register");
