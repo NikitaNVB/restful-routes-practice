@@ -47,11 +47,8 @@ app.use("/", indexRoutes);
 app.use("/campgrounds", campgroundRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
 
-<<<<<<< 99bed94a30fc9fdef3e6341c0605a4d32e14503e
 app.listen(process.env.PORT, process.env.IP, function(){
    console.log("YelpCamp server started"); 
-=======
 app.listen(3000, function(){
    console.log("iJustHelp server successfully started."); 
->>>>>>> add MEN stack
 });

@@ -1,11 +1,18 @@
 <% include ./partials/header %>
 
-<h1>login form!</h1>
-
+<div class="container data-form">
+<h1>Login</h1>
 <form action="/login" method="POST">
-    <input type="text" name="username" placeholder="username">
-    <input type="password" name="password" placeholder="password">
-    <button>Submit!</button>
+  <fieldset class="form-group">
+    <label for="username">Username</label>
+    <input name="username" typetitle="username" "text" class="form-control" id="username" placeholder="Username">
+  </fieldset>
+  <fieldset class="form-group">
+    <label for="password">Password</label>
+    <input name="password" type="password" class="form-control" id="password" placeholder="Password">
+  </fieldset>
+  <button type="submit" class="btn btn-primary">Login</button>
 </form>
+</div>
 
 <% include ./partials/footer %>
