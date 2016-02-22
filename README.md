@@ -1,9 +1,9 @@
 # RESTful Routes Practice
-Practicing RESTful Routes using a MEAN stack.
+Practicing **RESTful Routes** using a MEN (MongoDB, Express, NodeJS) stack.
 
+## Features
 * Sign Up/Login to create your session as a user.
-* Make posts as user and edit/delete them (only if you're the creator).
-* Comment on individual posts and edit/delete them (only if you're the creator).
+* CRUD posts.
 * Authentication/Authorization
 
 Check it out at [ijust.help/campgrounds](http://ijust.help/campgrounds).
