@@ -5,3 +5,5 @@ Practicing RESTful Routes using a MEAN stack.
 * Make posts as user and edit/delete them (only if you're the creator).
 * Comment on individual posts and edit/delete them (only if you're the creator).
 * Authentication/Authorization
+
+Check it out at [ijust.help/campgrounds](http://ijust.help/campgrounds).
